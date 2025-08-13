@@ -218,7 +218,7 @@ function setupMascots(host: HTMLElement) {
 
   const intervals: number[] = [];
 
-  specs.forEach((s, idx) => {
+  specs.forEach((s) => {
     const card = document.createElement("div");
     card.className =
       "relative w-40 h-40 rounded-2xl bg-white shadow flex flex-col items-center justify-end pb-3";
